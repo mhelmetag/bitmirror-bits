@@ -1,0 +1,19 @@
+{
+  "name": "bitmirror",
+  "version": "1.0.0",
+  "description": "Bitmirror NFTs",
+  "repository": "https://github.com/mhelmetag/bitmirror",
+  "author": "Max Helmetag <mhelmetag@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.9.3",
+    "node-fetch": "2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "dotenv": "^16.0.0"
+  }
+}

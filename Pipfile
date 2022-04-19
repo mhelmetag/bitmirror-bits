@@ -1,4 +1,6 @@
 [scripts]
+generate-images = "python generate_images.py"
+generate-metadata = "python generate_metadata.py"
 
 [[source]]
 name = "pypi"
