@@ -8,9 +8,11 @@ def main():
     size = 512
 
     for i in range(0, 100):
-        print(f'Generating image #{i}')
+        n = i + 1
 
-        filename = f'images/{i}.png'
+        print(f'Generating image #{n}')
+
+        filename = f'images/{n}.png'
         mirror = Mirror(size, filename)
 
         mirror.generate_image()
